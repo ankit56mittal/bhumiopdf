@@ -1,0 +1,23 @@
+doctype html
+html
+  head
+    title Modify PDF Form
+  body
+    h1 Modify PDF Form
+    form(action='/modify-pdf', method='POST')
+      label(for='filePath') PDF File Path:
+      input(type='text', name='filePath', id='filePath')
+      br
+      label(for='checkboxField') Checkbox Field Name:
+      input(type='text', name='checkboxField', id='checkboxField')
+      br
+      label(for='radioField') Radio Field Name:
+      input(type='text', name='radioField', id='radioField')
+      br
+      label(for='dropdownField') Dropdown Field Name:
+      input(type='text', name='dropdownField', id='dropdownField')
+      br
+      label(for='dropdownValue') Dropdown Value:
+      input(type='text', name='dropdownValue', id='dropdownValue')
+      br
+      button(type='submit') Modify PDF

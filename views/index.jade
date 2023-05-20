@@ -1,0 +1,42 @@
+extends layout 
+block content
+  h1= title
+  p Welcome to #{title}
+
+  body
+    section.top-container
+      a(href="/users/save")
+  button(type="submit") Save
+      a(href="/users/pdf")
+        button(type='button') load
+
+    section.middle-container 
+      button one
+      button two
+      select
+        option(value="name") Developer
+        option(value="name") Testing
+        option(value="name") Admin
+         option(value="name") Marketing
+          
+        input(type="radio") 
+        label(for="part-time") Parttime
+        input(type="radio")
+        label(for="full-time") Full-time
+  
+
+
+    section.last-container 
+      button three
+      button four
+      select
+        option(value="name") Developer
+        option(value="name") Testing
+         option(value="name") Admin
+         option(value="name") Marketing
+
+        input(type="radio") 
+        label(for="part-time") Part-time
+        input(type="radio")
+        label(for="full-time") Full-time
+       

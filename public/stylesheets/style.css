@@ -1,0 +1,38 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+section.top-container {
+  width:100%;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+/* Styles for save button */
+section.top-container a[href="/users/save"] button[type="button"] {
+  margin: 10px;
+  padding: 10px;
+  background-color: lightblue;
+  width:90px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styles for load button */
+section.top-container a[href="/users/pdf"] button[type="button"] {
+  /* Add your styles here */
+  margin: 10px;
+  padding: 10px;
+  background-color:red;
+  width:90px;
+  justify-content: center;
+  align-items: center;
+  
+
+}
